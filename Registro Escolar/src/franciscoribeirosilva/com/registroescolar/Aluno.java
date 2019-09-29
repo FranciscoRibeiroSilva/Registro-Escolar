@@ -15,12 +15,12 @@ public class Aluno {
         
     }
     
-    void fazerAvaliacao(){
-        
+    String mostrarNome(){
+        return this.nome;
     }
     
-    void seDesesperar(){
-        
+    String mostrarMatricula(){
+        return this.matricula;
     }
     
 }

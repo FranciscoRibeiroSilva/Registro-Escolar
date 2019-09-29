@@ -18,12 +18,20 @@ public class Professor {
         this.funcoes = funcoes;
     }
     
-    void lecionar(){
-        
+    String mostrarNome(){
+        return this.nome;
     }
     
-    void aplicarProvar(){
-        
+    String mostrarMatricula(){
+        return this.matricula;
+    }
+    
+    String informaFormacao(){
+        return this.formacao;
+    }
+    
+    String exibirFuncoes(){
+        return this.funcoes;
     }
     
 }
